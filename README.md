@@ -3,25 +3,25 @@ About yodo.rocks
 
 Yodo stands for: You Only Develop Once - a rapid development framework
 
-Behind Yodo stands the idea, that everything should developed only once and reused in every other application or website where it would be needed again.
+Behind Yodo stands the idea, that everything should be developed only once and reused in every other application or website where it would be needed again.
 
-Too often, this is not the case, as Frameworks or the projects build are just not modular enough.
-
-The goal with Yodo is to change that, as the Yodo architecture itself should make enforce that modularity as much as possible by default, even if the developer doesn't pay much attention.
-
+Too often, this is not the case, as frameworks or the projects build are just not modular enough.
 With most other frameworks we tend to build massive standalone apps, which makes it difficult to reuse or even combine them.
+
+The goal with Yodo is to change that, as the Yodo architecture itself should enforce that modularity as much as possible by default, even if the developer doesn't pay much attention.
+
 
 
 Why Yodo Rocks?
 --------
 
-Now you could think, Yodo rocks or not, but when I'm talking about Yodo rocks, I'm talking about Yodo's architecture.
+Now think if you want, that Yodo rocks or not, but when I'm talking about Yodo rocks, I mean Yodo's architecture.
 
-'Rocks' are the main concept behind Yodo. Rocks are the modular parts that can be combined as needed and make up a complete app. However, unlike the concept of modules which have a lot of dependencies usually, rocks are fully functional apps on their own and yet as flexible to work together.
+'Rocks' are the main concept behind Yodo. Rocks are the modular parts that can be combined as needed to full-blown apps. However, unlike the concept of modules which have a lot of dependencies usually, rocks are fully functional apps on their own and yet as flexible to work together with any other rock.
 
-Further, with the concept of rocks, Yodo wants to make rapid web development possible.
+Further, with the concept of rocks, Yodo wants to make rapid web development possible. Stop building massive apps and just build rocks, that you can put together as you or your customers will require from now on. Focus on the last part of app development, don't repeat every time the beginning.
 
-Another goal of Yodo is, to allow development without bothering too much about any internals. Make writing code feel as natural as possible and less technical. This comes with the benefit of being developed from the beginning to be as flexible, to support any technologies by not fully depending on any technology. In practice, this means, if a developer wants to use Smarty and another Twig as template engine for their Rock, they can do so, however the one writing the business logic wouldn't need to even know which template engine is used to make things work.
+Another goal of Yodo is, to allow development without bothering too much about any internals, by making writing code feel as natural as possible and less technical. This comes with the benefit of being developed from the beginning to be as flexible, to support any technologies by not fully depending on any technology. In practice, this means, if a developer wants to use Smarty and another developer wants to use Twig as template engine for their rock, they can do so, however the one writing the business logic wouldn't need to even know which template engine was used to make things work.
 
 
 Roadmap
