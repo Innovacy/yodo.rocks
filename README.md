@@ -1,7 +1,7 @@
 About yodo.rocks
 --------
 
-Yodo stands for: You Only Develop Once - a rapid development framework
+Yodo stands for: You Only Develop Once - a rapid application development php framework
 
 Behind Yodo stands the idea, that everything should be developed only once and reused in every other application or website where it would be needed again.
 
@@ -32,4 +32,17 @@ Yodo has a long way still before it will implement everything for the 1.0.0 rele
 There's no roadmap yet, as it's in the early stages. For now it's just about getting as much code done for a first functional release. Then, when the time seems right, a roadmap will be announced.
 
 You are welcomed to participate with ideas, suggest improvements or even contribute.
+
+
+Requirements for running/developing with Yodo
+--------
+
+Yodo is geared towards the following compatibilities:
+
+* Requires at least PHP version 5.5.0
+* Warning: It's still to be decided if that requirement is worth increasing to 5.6+ because default_charset defaults to "UTF-8" and because of variadic functions and argument unpacking support. But probably these are not enough reasons.
+* Considerations: Active support for PHP 5.5 ended on June 20, 2015 - as that it probably won't be officially supported by yodo.rocks, however considering host support for PHP 5.6, it's not officially available even for Ubuntu 14.04 yet
+* All code is PHP 7 compatible
+* JSON support is required
+* PDO support with the driver for your database, if you want to use database support
 

@@ -1,0 +1,29 @@
+{
+  "name": "Innovacy/yodo.rocks",
+  "description": "tldr; YODO - You Only Develop Once - The Rapid Application Development PHP Framework",
+  "homepage": "http://yodo.rocks/",
+  "keywords": [
+    "framework",
+    "yodo"
+  ],
+  "type": "project",
+  "authors": [
+    {
+      "name": "Dimitrios Karvounaris",
+      "email": "d.karvounaris@innovacy.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "ext-ctype": "*",
+    "ext-mcrypt": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Innovacy\\yodo.rocks\\Tests\\": "tests/"
+    }
+  }
+}
