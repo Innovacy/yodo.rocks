@@ -39,9 +39,7 @@ Requirements for running/developing with Yodo
 
 Yodo is geared towards the following compatibilities:
 
-* Requires at least PHP version 5.5.0
-* Warning: It's still to be decided if that requirement is worth increasing to 5.6+ because default_charset defaults to "UTF-8" and because of variadic functions and argument unpacking support. But probably these are not enough reasons.
-* Considerations: Active support for PHP 5.5 ended on June 20, 2015 - as that it probably won't be officially supported by yodo.rocks, however considering host support for PHP 5.6, it's not officially available even for Ubuntu 14.04 yet
+* Requires at least PHP version 7 (yes! read: [Decision Keys for PHP 7](docs/Decision Keys for PHP 7.md))
 * All code is PHP 7 compatible
 * JSON support is required
 * PDO support with the driver for your database, if you want to use database support
