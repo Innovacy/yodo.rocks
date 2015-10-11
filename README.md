@@ -1,7 +1,12 @@
 About yodo.rocks
 --------
 
-Yodo stands for: You Only Develop Once - a rapid application development php framework
+- Context-/scope-aware framework
+- the first framework made for PHP 7
+- maximum reusability of code and components
+- create apps that can be reused as if they were plugins
+
+Yodo stands for: You Only Develop Once - a rapid application development framework for PHP 7
 
 Behind Yodo stands the idea, that everything should be developed only once and reused in every other application or website where it would be needed again.
 
